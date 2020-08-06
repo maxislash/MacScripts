@@ -30,3 +30,19 @@ Click on "Enable Folder Action"
 Enjoy!
 
 
+### volumeMounted.scpt
+
+Script that automatically add a script to the Movies folder of my external hard drive when plugged in. This is needed for the following script because Folder Action Setup breaks on external hard drive when they are mounted/unmounted
+
+To install it, download the file volumeMounted.scpt, copy it in /Library/Scripts/Folder Action Scripts
+Then, in the Finder, click on any folder and click on Folder Action Setup.
+Click on "+" on the folder section and press CMD+SHIFT+"G" and type "/Volumes"
+
+CAdd the script volumeMounted.Scpt and look if it is added in the right column.
+
+Enjoy!
+
+### movielist.scpt
+
+Script that create a txt file of every movies in my external hard drive. The script is automatically installed with the above script.
+By adding alexandrie_movies.txt on google drive, I can have access to the list of every movie I have.
